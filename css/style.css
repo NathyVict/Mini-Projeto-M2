@@ -1,0 +1,116 @@
+/*geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Courier New';
+    color:#463730;
+    border: none;
+}
+
+input,label{
+    background-color: #b4a59c;
+    display: block;
+    width: 100%;
+}
+
+input:focus,label:focus{
+    outline: none;
+}
+
+a{
+    color:#463730;
+}
+
+body{
+    padding-top: 5vh;
+    background-image: url(../img/Correção\ 2.png);
+    background-size:cover;
+    background-position: 45px;
+}
+
+/*form*/
+
+#main-container h1{
+    font-size: 20px;
+}
+#main-container{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#b4a59c;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+#main.conatiner h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.full-box{
+    flex: 1 1 100%;
+    position: relative;
+}
+
+.half-box{
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.spacing{
+    margin-right: 2.5%;
+}
+
+label{
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input{
+    border-bottom: 2px solid #463730;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 20px;
+}
+input:focus{
+    border-color:#463730;
+}
+input[type="submit"] {
+    font-size: 15px;
+    background-color: #ebcecc;
+    color: #463730;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#agreement{
+    margin-right: 5px;
+}
+
+#agreement, #agreement-label {
+    display: inline-block;
+    width: auto;
+}
+
+/*validações*/
+.error-validation{
+    color: red;
+    position: absolute;
+    top:57px;
+    font-size: .8rem;
+}
+
+.template{
+    display: none;
+}
